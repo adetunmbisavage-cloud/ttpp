@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+media_folder: uploads
+public_folder: /uploads
+collections:
+  - name: apartments
+    label: Apartments
+    files:
+      - name: listings
+        label: All apartment listings
+        file: content/apartments.json
+        fields:
+          - label: Apartments
+            name: apartments
+            widget: list
+            summary: "{{fields.title}} - {{fields.area}}"
+            fields:
+              - {label: City, name: city, widget: select, options: [Lagos, Abuja]}
+              - {label: Title, name: title, widget: string}
+              - {label: Neighbourhood, name: area, widget: string}
+              - {label: Status, name: status, widget: select, options: [Available, Limited availability, Temporarily unavailable, Fully booked, Coming soon, Hidden], default: Available}
+              - {label: Main photo, name: img, widget: image, required: false}
+              - {label: Video file, name: video, widget: file, required: false}
+              - {label: TikTok video link, name: tiktok, widget: string, required: false}
+              - {label: Details (bedrooms, bathrooms, amenities), name: details, widget: text}
+              - {label: "Price per night (numbers only, e.g. 120,000)", name: price, widget: string, required: false}
+              - {label: Full description, name: description, widget: text, required: false}
+              - label: More photos
+                name: gallery
+                widget: list
+                required: false
+                field: {label: Photo, name: image, widget: image}

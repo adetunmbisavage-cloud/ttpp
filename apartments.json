@@ -1,0 +1,48 @@
+{
+  "apartments": [
+    {
+      "city": "Lagos",
+      "title": "Apartment listing placeholder",
+      "area": "Lekki Phase 1",
+      "status": "Coming soon",
+      "img": "",
+      "video": "",
+      "tiktok": "",
+      "details": "Bedrooms, bathrooms, amenities and price to be confirmed by management.",
+      "price": ""
+    },
+    {
+      "city": "Lagos",
+      "title": "Apartment listing placeholder",
+      "area": "Victoria Island",
+      "status": "Coming soon",
+      "img": "",
+      "video": "",
+      "tiktok": "",
+      "details": "Bedrooms, bathrooms, amenities and price to be confirmed by management.",
+      "price": ""
+    },
+    {
+      "city": "Abuja",
+      "title": "Apartment listing placeholder",
+      "area": "Maitama",
+      "status": "Coming soon",
+      "img": "",
+      "video": "",
+      "tiktok": "",
+      "details": "Bedrooms, bathrooms, amenities and price to be confirmed by management.",
+      "price": ""
+    },
+    {
+      "city": "Abuja",
+      "title": "Apartment listing placeholder",
+      "area": "Wuse",
+      "status": "Coming soon",
+      "img": "",
+      "video": "",
+      "tiktok": "",
+      "details": "Bedrooms, bathrooms, amenities and price to be confirmed by management.",
+      "price": ""
+    }
+  ]
+}
